@@ -1,0 +1,13 @@
+.svg-icon(@icon, @width, @height) {
+	background: svg('@{icon}') no-repeat 0 0;
+	background-size: @width @height;
+	width: @width;
+	height: @height;
+}
+
+.svg-icon-param(@icon, @width, @height, @param) {
+	background: svg('@{icon}', '@{param}') no-repeat 0 0;
+	background-size: @width @height;
+	width: @width;
+	height: @height;
+}

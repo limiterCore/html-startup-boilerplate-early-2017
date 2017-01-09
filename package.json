@@ -1,0 +1,42 @@
+{
+  "name": "html-startup-boilerplate",
+  "description": "Html startup boilerplate with less, nunjucks, postcss-svg, autoprefixer, rigger, etc.",
+  "version": "0.1.0",
+  "repository" : {
+    "type" : "git",
+    "url"  : "https://github.com/limiterCore/html-startup-boilerplate-early-2017.git"
+  },
+  "keywords": [
+    "less",
+    "nunjucks",
+    "uncache",
+    "postcss-svg",
+    "autoprefixer"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-html-prettify": "0.0.1",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-less": "^3.3.0",
+    "gulp-less-sourcemap": "^1.4.3",
+    "gulp-livereload": "^3.8.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-sync": "^0.1.4",
+    "gulp-uglify": "^2.0.0",
+    "gulp-uncache": "^0.4.0-beta1",
+    "gulp-watch": "^4.3.9",
+    "gulp.spritesmith": "^6.0.1",
+    "merge-stream": "^1.0.0",
+    "node-notifier": "^4.2.1",
+    "postcss-svg": "^1.0.6",
+    "vinyl-buffer": "^1.0.0"
+  }
+}
